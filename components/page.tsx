@@ -1,8 +1,10 @@
+'use client'
+
 import Link from 'next/link'
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card"
 
-export default function ProductLaunchCoursePage() {
+export function Page() {
   const syllabus = [
     { week: 1, title: "How to Evaluate Ideas", slides: "/slides/week1" },
     { week: 2, title: "Idea Proposals & Team Formation", slides: "/slides/week2" },
